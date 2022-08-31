@@ -1,0 +1,11 @@
+(instalar o node.js)
+
+php artisan make:migration create_table_times --create=times
+
+php artisan migrate
+
+php artisan make:model Time
+
+php artisan make:request nome-da-request
+
+adicionar Paginator::useBootstrap(); em AppServiceProdivder para usar a paginação (use Illuminate\Pagination\Paginator;)
